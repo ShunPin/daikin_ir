@@ -39,3 +39,11 @@ tar --exclude=__pycache__ -czf - -C custom_components daikin_ir \
 ```
 
 改 `climate.py` / `protocol.py` 後需重啟 HA core。
+
+## 授權
+
+MIT，見 [LICENSE](LICENSE)。
+
+`custom_components/daikin_ir/tuya_codec.py` 原封不動取自
+[ar_smart_ir](https://github.com/marsh4200/ar_smart_ir)，
+MIT License，Copyright (c) 2026 marsh4200 (ARSmartHome)，版權聲明保留在檔頭。

@@ -1,0 +1,9 @@
+{
+  "domain": "daikin_ir",
+  "name": "Daikin IR (ZS06)",
+  "codeowners": [],
+  "dependencies": ["mqtt"],
+  "iot_class": "assumed_state",
+  "requirements": [],
+  "version": "0.1.0"
+}
